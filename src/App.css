@@ -1,0 +1,301 @@
+*{
+  margin:0px;
+}
+
+#main{
+   width:100%;
+   height:100%;  
+   overflow: hidden;
+   position: absolute;
+   background: #1d2731;
+}
+#box1{
+   width:530px;
+   height:625px;
+   background-image: url('./flyingsuperman2.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   position:absolute;
+   top:-100%;
+   left:40%;
+   animation:anim 3s forwards,anim2 3s forwards 3s,anim6 3s infinite 6s; 
+}
+
+/* #box1:after{
+  content:'';
+  position: absolute;
+  width: 530px;
+  height: 625px;
+  background-image:url('./2.png');
+  left:0%;
+  z-index:-1;
+} */
+
+@keyframes anim{
+  from{
+    top:-100%;
+  }
+  to{
+    top:15%
+  }
+}
+
+@keyframes anim2{
+  from{
+    left:40%;
+  }
+  to{
+    left:60%
+  }
+}
+@keyframes anim6{
+  0%{
+    top:15%
+  }
+  50%{
+    top:12%
+  }
+  100%{
+    top:15%
+  }
+}
+
+#box2{
+  width:auto;
+  height:auto;
+  font-family:'Bahnschrift Condensed';
+  color:#fff;
+  font-size:10em;
+  font-weight:500;
+  line-height:130px;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  overflow: hidden;
+}
+
+#text{
+   position: relative;
+   left: -100%;
+   animation: anim3 3s forwards 3s;
+}
+@keyframes anim3{
+  from{
+    left:100%;
+  }
+  to{
+    left:0%;
+  }
+}
+
+#box3{
+  overflow: hidden;
+}
+#container{
+  width: 100%;
+  position: absolute;
+  top:-100%;
+  animation: anim4 3s forwards 4s;
+}
+
+#logo{
+  float:left;
+  margin-left: 100px;
+  margin-top:0.75%;
+}
+#logo img{
+  width:55px
+} 
+#menu{
+  font-family:'Bahnschrift Condensed';
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 2px;
+  float:right;
+  margin-right: 150px;
+  margin-top:1%;
+  /* border: 1px solid #fff; */
+}
+#menu ul{
+  list-style: none;
+}
+#menu ul li{
+  display:inline-block;
+  margin-left: 100px;
+}
+@keyframes anim4{
+  from{
+    top:-100%;
+  }
+  to{
+    top:0%;
+  }
+}
+
+li:hover{
+  cursor: pointer;
+  color:#919191
+}
+
+
+@media only screen and (max-width: 600px) {
+  #box2{
+    font-size:3em;
+    line-height: 50px;
+    left:35px;
+  }
+  #menu{
+    margin-right: 1.5em;
+    letter-spacing: 1px;
+  }
+  #logo{
+    margin-left:1.5em;
+  } 
+  #menu ul li{
+    margin-left:1.5em;
+  }
+  #box1{
+    left:15%;
+  }
+  @keyframes anim2{
+    from{
+      left:15%;
+    }
+    to{
+      left:20%
+    }
+  }
+  
+ 
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  #box2{
+    font-size:3.5em;
+    line-height: 60px;
+    left:55px;
+  }
+  #menu{
+    margin-right: 2em;
+    letter-spacing: 1px;
+  }
+  #logo{
+    margin-left:2em
+  } 
+  #menu ul li{
+    margin-left:2em;
+  }
+  #box1{
+    left:20%;
+  }
+  @keyframes anim2{
+    from{
+      left:20%;
+    }
+    to{
+      left:30%
+    }
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #box2{
+    font-size:5em;
+    line-height: 85px;
+    left:55px
+  }
+  #menu{
+    margin-right: 4em;
+    letter-spacing: 1px;
+  }
+  #logo{
+    margin-left:3em
+  } 
+  #menu ul li{
+    margin-left:3em;
+  }
+
+  #box1{
+    left:33%;
+  }
+  
+  @keyframes anim2{
+    from{
+      left:33%;
+    }
+    to{
+      left:43%
+    }
+  }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #box2{
+    font-size:7em;
+    line-height: 115px;
+    left:80px
+   }
+ 
+  #menu{
+    margin-right: 6em;
+    letter-spacing: 1px;
+  }
+  #logo{
+    margin-left:4em
+  } 
+  #menu ul li{
+    margin-left: 4em;
+  }
+
+  #box1{
+    left:38%;
+  }
+  
+  @keyframes anim2{
+    from{
+      left:38%;
+    }
+    to{
+      left:53%
+    }
+  }
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  #box2{ 
+    font-size:8em;
+    line-height: 130px;
+    left:100px
+  }
+  #menu{
+    margin-right: 6em;
+    letter-spacing: 1px;
+  }
+  #logo{
+    margin-left:5em
+  } 
+  #menu ul li{
+    margin-left: 5em;
+  }
+  #box1{
+    left:40%;
+  }
+
+  @keyframes anim2{
+    from{
+      left:40%;
+    }
+    to{
+      left:55%
+    }
+  }
+}
+
