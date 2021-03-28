@@ -142,20 +142,23 @@ li:hover{
   #box2{
     font-size:3em;
     line-height: 50px;
-    left:35px;
+    left:30px;
   }
   #menu{
-    margin-right: 1.5em;
+    margin-right: 2em;
     letter-spacing: 1px;
   }
   #logo{
-    margin-left:1.5em;
+    margin-left:1em;
+    margin-top:.5em ;
   } 
   #menu ul li{
-    margin-left:1.5em;
+   display:none
   }
   #box1{
     left:15%;
+    width:350px;
+    height:500px;
   }
   @keyframes anim2{
     from{
