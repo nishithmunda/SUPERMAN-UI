@@ -63,7 +63,7 @@
 #box2{
   width:auto;
   height:auto;
-  font-family:'Bahnschrift Condensed';
+  font-family: 'Saira Condensed', sans-serif;
   color:#fff;
   font-size:10em;
   font-weight:500;
@@ -107,7 +107,7 @@
   width:55px
 } 
 #menu{
-  font-family:'Bahnschrift Condensed';
+  font-family: 'Saira Condensed', sans-serif;
   font-size: 14px;
   color: #fff;
   letter-spacing: 2px;
