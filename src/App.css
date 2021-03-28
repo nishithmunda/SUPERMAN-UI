@@ -142,7 +142,7 @@ li:hover{
   #box2{
     font-size:3em;
     line-height: 50px;
-    left:30px;
+    left:10%;
   }
   #menu{
     margin-right: 2em;
@@ -178,7 +178,7 @@ li:hover{
   #box2{
     font-size:3.5em;
     line-height: 60px;
-    left:55px;
+    left:10%;
   }
   #menu{
     margin-right: 2em;
@@ -208,7 +208,7 @@ li:hover{
   #box2{
     font-size:5em;
     line-height: 85px;
-    left:55px
+    left:10%;
   }
   #menu{
     margin-right: 4em;
@@ -241,7 +241,7 @@ li:hover{
   #box2{
     font-size:7em;
     line-height: 115px;
-    left:80px
+    left:10%;
    }
  
   #menu{
@@ -276,7 +276,7 @@ li:hover{
   #box2{ 
     font-size:8em;
     line-height: 130px;
-    left:100px
+    left:10%
   }
   #menu{
     margin-right: 6em;
